@@ -1,0 +1,32 @@
+species: Kinamaze
+
+seq_info:
+  type: WGS
+  stranded: yes
+  mode: PE
+  replicate: 1
+
+path: /var/data/raw_data/ZhuWC/fastq
+
+samples:
+  - 104-1-90-2_combined
+  - 104-3-1-90-2_combined
+#  - Kin-I_combined
+
+group1:
+  - 104-1
+  - 104-3-1
+
+group2:
+  - Kin-I
+  
+cpu: 30
+
+
+Rscript_path: /home/lpeng/software/R3.2.5/bin/Rscript
+
+adapter: /home/lpeng/software/miniconda3/pkgs/trimmomatic-0.36-4/share/trimmomatic-0.36-4/adapters/TruSeq2-PE.fa
+
+index: /home/lpeng/Gmatic5/genome/Rice_Kinamaze/Kinamaze_genome
+
+genome: /home/lpeng/Gmatic5/genome/Rice_Kinamaze/Kinamaze_genome.fa
