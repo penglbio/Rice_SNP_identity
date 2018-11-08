@@ -1,0 +1,37 @@
+species: tair 
+seq_info:
+  type: WGS
+  stranded: yes
+  mode: PE
+  replicate: 1
+
+path: /cluster/home/lpeng/projects/06_snv_WPC/raw
+
+samples:
+  - 17
+  - 18
+  - 19
+  - 20
+  - 21
+  - 22
+  - 23
+  - 24
+  - 25
+  - 26
+  - 27
+  - 28
+  - 29
+  - 31
+
+cpu: 20
+
+
+Rscript_path: /cluster/home/lpeng/software/miniconda3/envs/gmatic/bin/Rscript
+
+conda_path: /cluster/home/lpeng/software/miniconda3/envs/gmatic/bin
+
+adapter: /cluster/home/lpeng/projects/genome/adapter.fa
+
+index: /cluster/home/lpeng/projects/genome/tair10/tair10
+
+genome: /cluster/home/lpeng/projects/genome/tair10/tair10.fa
